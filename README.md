@@ -12,25 +12,6 @@ Aplikasi konsol berbasis Java untuk menghitung dan mensimulasikan cicilan Kredit
 🔄 Migrasi ke Spring Boot + Thymeleaf (coming soon)
 
 
-KPR-Apps/
-├── src/
-│   └── main/
-│       └── java/
-│           └── org.kprcalc/
-│               ├── Main.java                  # Entry point program
-│               ├── model/
-│               │   └── KprData.java           # Model data KPR
-│               ├── service/
-│               │   ├── KprService.java        # Abstract class service
-│               │   ├── KprAnuitas.java        # Implementasi metode anuitas
-│               │   └── KprFlat.java           # Implementasi metode flat
-│               └── util/
-│                   ├── Formatter.java         # Format angka ke Rupiah
-│                   └── Validator.java         # Validasi input pengguna
-├── pom.xml
-└── README.md
-
-
 Rumus Perhitungan Anuitas
 
 M = P × [r(1+r)^n] / [(1+r)^n - 1]
